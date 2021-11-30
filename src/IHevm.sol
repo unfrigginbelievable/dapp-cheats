@@ -14,4 +14,6 @@ interface Hevm {
         bytes32 loc,
         bytes32 val
     ) external;
+
+    function load(address, bytes32) external view returns (bytes32);
 }
