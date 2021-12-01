@@ -55,6 +55,7 @@ contract TypeConverts {
         return val;
     }
 
+    // https://ethereum.stackexchange.com/questions/8346/convert-address-to-string/8447#8447
     function addressToString(address x) internal pure returns (string memory) {
         bytes memory s = new bytes(40);
         for (uint256 i = 0; i < 20; i++) {
