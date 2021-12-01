@@ -2,8 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "ds-test/test.sol";
-import "@openzeppelin/contracts/interfaces/IERC20.sol";
-
+import "./IERC20.sol";
 import "./IHevm.sol";
 
 contract TokenCheats is DSTest {
