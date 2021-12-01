@@ -15,7 +15,7 @@ contract TypeConverts {
 
     // https://stackoverflow.com/questions/47129173/how-to-convert-uint-to-string-in-solidity
     function uint2str(uint256 _i)
-        internal
+        public
         pure
         returns (string memory _uintAsString)
     {
