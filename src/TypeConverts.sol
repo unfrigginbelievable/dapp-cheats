@@ -64,7 +64,7 @@ contract TypeConverts {
             s[2 * i] = char(hi);
             s[2 * i + 1] = char(lo);
         }
-        return string(s);
+        return string(abi.encodePacked("0x", s));
     }
 
     function char(bytes1 b) internal pure returns (bytes1 c) {
